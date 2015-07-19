@@ -12,9 +12,9 @@ date: 2015-07-19T11:16:52-10:00
 
 
 ### Overview
-Dynamically populate the <a href="https://github.com/jonmiles/bootstrap-treeview">bootstrap-treeview</a> data from a LINQ-to-SQL datacontext in an ASP.NET C# code behind.The function serialize db.text fields a LINQ query of two tables; one parent, the other child, ultimately merging the serialized a string into JSON parsable string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.
+Dynamically populate the <a href="https://github.com/jonmiles/bootstrap-treeview">bootstrap-treeview</a> data from a LINQ-to-SQL datacontext in an ASP.NET C# code behind. The function serialize db.text fields a LINQ query of two tables; one parent, the other child, ultimately merging the serialized a string into JSON parsable string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.
 
-#### Requires Namespaces
+#### Requireds Namespaces
 {% highlight csharp %}
 using System.Runtime.Serialization.Json;
 using System.IO;
@@ -121,6 +121,7 @@ var $tree = $('#treeview12').treeview({
 
 
 ---
+
 #### References
 
 1. https://github.com/jonmiles/bootstrap-treeview
