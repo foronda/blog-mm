@@ -12,9 +12,9 @@ date: 2015-07-19T11:16:52-10:00
 
 
 ### Purpose
-To dynamically populate the treeview data with a LINQ-to-SQL datacontext in code behind.The code snippet is called by the front-end javascript to serialize two lists from the database query and merged to create the correct JSON format.
+To dynamically populate the bootstrap-treeview data from a LINQ-to-SQL datacontext in code behind.The function serialize a series db.text fields query from two tables; one parent, the other child, ultimately returning a string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.
 
-#### Namespaces
+#### Requires Namespaces
 {% highlight csharp %}
 using System.Runtime.Serialization.Json;
 using System.IO;
