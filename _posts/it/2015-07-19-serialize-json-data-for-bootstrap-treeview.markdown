@@ -12,7 +12,7 @@ date: 2015-07-19T11:16:52-10:00
 
 
 ### Purpose
-To dynamically populate the bootstrap-treeview data from a LINQ-to-SQL datacontext in code behind.The function serialize a series db.text fields query from two tables; one parent, the other child, ultimately returning a string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.
+To dynamically populate the bootstrap-treeview data from a LINQ-to-SQL datacontext in an ASP.NET C# code behind.The function serialize db.text fields a LINQ query of two tables; one parent, the other child, ultimately merging the serialized a string into JSON parsable string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.
 
 #### Requires Namespaces
 {% highlight csharp %}
@@ -38,6 +38,25 @@ public class ParentWithChildren
 public class Child
 {
     public string text { get; set; }
+}
+{% endhighlight %}
+
+#### ExtensionMethods
+> Extension methods used to simplify formatting of final JSON data format of bootstrap-treeview
+{% highlight csharp %}
+public static class ExtensionMethods
+{
+    public static string GetTreeViewJsonFormat(this string str)
+    {
+        return '[' + str + ']';
+    }
+    public static string MergeJsonString(this string str, string strTwo)
+    {
+        if (String.IsNullOrEmpty(str))
+            return strTwo;
+        else
+            return str + "," + strTwo;
+    }
 }
 {% endhighlight %}
 
@@ -99,3 +118,9 @@ var $tree = $('#treeview12').treeview({
                 data: jQuery.parseJSON('<%=GetJsonData() %>')
             });
 {% endhighlight %}
+
+
+---
+#### References
+
+1. https://github.com/jonmiles/bootstrap-treeview
