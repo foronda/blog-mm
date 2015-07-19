@@ -10,3 +10,4 @@ image:
 date: 2015-07-19T02:12:47-10:00
 ---
 
+http://www.evernote.com/l/ABOunep9pdpIqZfVG7_dEbUni6q84kAEDYU/
