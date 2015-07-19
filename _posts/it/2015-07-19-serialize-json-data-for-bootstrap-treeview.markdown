@@ -12,7 +12,7 @@ date: 2015-07-19T11:16:52-10:00
 
 
 ### Purpose
-To dynamically populate the treeview data with a LINQ-to-SQL datacontext in code behind.The code below is the public function called by the front-end javascript to serialize database.
+To dynamically populate the treeview data with a LINQ-to-SQL datacontext in code behind.The code snippet is called by the front-end javascript to serialize two lists from the database query and merged to create the correct JSON format.
 
 #### Namespaces
 {% highlight csharp %}

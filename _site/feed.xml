@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2015-07-19T11:31:58-10:00</updated>
+<updated>2015-07-19T11:32:06-10:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Brylian Foronda</name>
@@ -28,7 +28,7 @@
   </author>
   <content type="html">
     &lt;h3 id=&quot;purpose&quot;&gt;Purpose&lt;/h3&gt;
-&lt;p&gt;To dynamically populate the treeview data with a LINQ-to-SQL datacontext in code behind.The code below is the public function called by the front-end javascript to serialize database.&lt;/p&gt;
+&lt;p&gt;To dynamically populate the treeview data with a LINQ-to-SQL datacontext in code behind.The code snippet is called by the front-end javascript to serialize two lists from the database query and merged to create the correct JSON format.&lt;/p&gt;
 
 &lt;h4 id=&quot;namespaces&quot;&gt;Namespaces&lt;/h4&gt;
 
