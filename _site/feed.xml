@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="//foronda.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="//foronda.github.io" />
-<updated>2015-07-19T03:23:25-10:00</updated>
+<updated>2015-07-19T04:29:13-10:00</updated>
 <id>//foronda.github.io/</id>
 <author>
   <name>Brylian Foronda</name>
@@ -37,7 +37,7 @@
   
 
 <entry>
-  <title type="html"><![CDATA[First Food Post]]></title>
+  <title type="html"><![CDATA[Dinner at Japengo]]></title>
   <link rel="alternate" type="text/html" href="//foronda.github.io/food/first-food-post/" />
   <id>//foronda.github.io/food/first-food-post</id>
   <published>2015-07-19T02:12:47-10:00</published>
@@ -48,9 +48,22 @@
     
   </author>
   <content type="html">
-    &lt;p&gt;http://www.evernote.com/l/ABOunep9pdpIqZfVG7_dEbUni6q84kAEDYU/&lt;/p&gt;
+    &lt;figure&gt;
+	&lt;img src=&quot;/images/janpengo-kbh&quot; /&gt;
+	&lt;figcaption&gt;A long overdue gathering with the KBH Ohana!&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;//foronda.github.io/food/first-food-post/&quot;&gt;First Food Post&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;//foronda.github.io&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.evernote.com/shard/s19/sh/ae9dea7d-a5da-48a9-97d5-1bbfdd11b527/8baabce240040d85&quot;&gt;Evenote Food&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;food-45--price-355&quot;&gt;FOOD: 4/5 | PRICE: 3.5/5&lt;/h2&gt;
+&lt;figure class=&quot;third&quot;&gt;
+		&lt;img src=&quot;/images/japengo1.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/japengo2.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/japengo3.jpg&quot; /&gt;
+	&lt;figcaption&gt;Caption describing these three images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+    &lt;p&gt;&lt;a href=&quot;//foronda.github.io/food/first-food-post/&quot;&gt;Dinner at Japengo&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;//foronda.github.io&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 
