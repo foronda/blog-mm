@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Just another blog.</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="//foronda.github.io/feed.xml" />
-<link rel="alternate" type="text/html" href="//foronda.github.io" />
-<updated>2015-07-19T04:32:48-10:00</updated>
-<id>//foronda.github.io/</id>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2015-07-19T11:02:58-10:00</updated>
+<id>http://localhost:4000/</id>
 <author>
   <name>Brylian Foronda</name>
-  <uri>//foronda.github.io/</uri>
+  <uri>http://localhost:4000/</uri>
   
 </author>
 
@@ -16,20 +16,66 @@
   
 
 <entry>
+  <title type="html"><![CDATA[Moving iTunes Backup Location]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/it/moving-itunes-backup-location/" />
+  <id>http://localhost:4000/it/moving-itunes-backup-location</id>
+  <published>2015-07-19T10:25:45-10:00</published>
+  <updated>2015-07-19T10:25:45-10:00</updated>
+  <author>
+    <name>Brylian Foronda</name>
+    <uri>http://localhost:4000</uri>
+    
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;problem&quot;&gt;Problem:&lt;/h3&gt;
+&lt;p&gt;Operating system (C:) drive running out of space due to iTunes backup.
+&amp;gt;This is very useful if your OS runs on SSD (which is common today) to save valuable space.&lt;/p&gt;
+
+&lt;h3 id=&quot;solution&quot;&gt;Solution:&lt;/h3&gt;
+&lt;p&gt;Change the backup location of iTunes using Windows mklink junction command.&lt;/p&gt;
+
+&lt;h3 id=&quot;procedure&quot;&gt;Procedure:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Rename the backup folder under %AppData%\Apple Computer\MobileSync\Backup to Backup-old&lt;/li&gt;
+  &lt;li&gt;Create the new folder location i.e (D: iTunes Backup)&lt;/li&gt;
+  &lt;li&gt;Run the junction command.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;mklink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;target&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;mklink&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;%appdata%\Apple Computer\MobileSync\Backup&amp;quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;D:\iTunes Backup&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;http://www.howtogeek.com/164275/how-to-change-the-backup-location-of-itunes-or-any-windows-app/&lt;/li&gt;
+  &lt;li&gt;http://social.technet.microsoft.com/Forums/en-US/8700d04f-45b6-45db-bab5-48bd86a69e18/mklink-error-the-syntax-of-the-command-is-incorrect?forum=w8itprogeneral&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/moving-itunes-backup-location/&quot;&gt;Moving iTunes Backup Location&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
   <title type="html"><![CDATA[First IT Post]]></title>
-  <link rel="alternate" type="text/html" href="//foronda.github.io/it/first-it-post/" />
-  <id>//foronda.github.io/it/first-it-post</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/it/first-it-post/" />
+  <id>http://localhost:4000/it/first-it-post</id>
   <published>2015-07-19T02:49:30-10:00</published>
   <updated>2015-07-19T02:49:30-10:00</updated>
   <author>
     <name>Brylian Foronda</name>
-    <uri>//foronda.github.io</uri>
+    <uri>http://localhost:4000</uri>
     
   </author>
   <content type="html">
     
 
-    &lt;p&gt;&lt;a href=&quot;//foronda.github.io/it/first-it-post/&quot;&gt;First IT Post&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;//foronda.github.io&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/first-it-post/&quot;&gt;First IT Post&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -38,24 +84,24 @@
 
 <entry>
   <title type="html"><![CDATA[Dinner at Japengo]]></title>
-  <link rel="alternate" type="text/html" href="//foronda.github.io/food/japengo-post/" />
-  <id>//foronda.github.io/food/japengo-post</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/food/japengo-post/" />
+  <id>http://localhost:4000/food/japengo-post</id>
   <published>2015-07-19T02:12:47-10:00</published>
   <updated>2015-07-19T02:12:47-10:00</updated>
   <author>
     <name>Brylian Foronda</name>
-    <uri>//foronda.github.io</uri>
+    <uri>http://localhost:4000</uri>
     
   </author>
   <content type="html">
     &lt;figure&gt;
-	&lt;img src=&quot;/images/janpengo-kbh.jpg&quot; /&gt;
+	&lt;img src=&quot;/images/japengo-kbh.jpg&quot; /&gt;
 	&lt;figcaption&gt;A long overdue gathering with the KBH Ohana!&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.evernote.com/shard/s19/sh/ae9dea7d-a5da-48a9-97d5-1bbfdd11b527/8baabce240040d85&quot;&gt;Evenote Food&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;food-45--price-355&quot;&gt;FOOD: 4/5 | PRICE: 3.5/5&lt;/h2&gt;
+&lt;h3 id=&quot;food-45--price-355&quot;&gt;FOOD: 4/5 | PRICE: 3.5/5&lt;/h3&gt;
 &lt;figure class=&quot;third&quot;&gt;
 		&lt;img src=&quot;/images/japengo1.jpg&quot; /&gt;
 	&lt;img src=&quot;/images/japengo2.jpg&quot; /&gt;
@@ -67,7 +113,7 @@
 	&lt;img src=&quot;/images/japengo6.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;//foronda.github.io/food/japengo-post/&quot;&gt;Dinner at Japengo&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;//foronda.github.io&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/food/japengo-post/&quot;&gt;Dinner at Japengo&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 

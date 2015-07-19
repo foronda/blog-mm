@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>//foronda.github.io/it/first-it-post/</loc>
+    <loc>http://localhost:4000/it/moving-itunes-backup-location/</loc>
+    <lastmod>2015-07-19T10:25:45-10:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:4000/it/first-it-post/</loc>
     <lastmod>2015-07-19T02:49:30-10:00</lastmod>
   </url>
   <url>
-    <loc>//foronda.github.io/food/japengo-post/</loc>
+    <loc>http://localhost:4000/food/japengo-post/</loc>
     <lastmod>2015-07-19T02:12:47-10:00</lastmod>
   </url>
   <url>
-    <loc>//foronda.github.io/food/</loc>
+    <loc>http://localhost:4000/food/</loc>
   </url>
   <url>
-    <loc>//foronda.github.io/about/</loc>
+    <loc>http://localhost:4000/it/</loc>
   </url>
   <url>
-    <loc>//foronda.github.io/</loc>
+    <loc>http://localhost:4000/about/</loc>
   </url>
   <url>
-    <loc>//foronda.github.io/posts/</loc>
+    <loc>http://localhost:4000/posts/</loc>
   </url>
   <url>
-    <loc>//foronda.github.io/theme-setup/</loc>
+    <loc>http://localhost:4000/theme-setup/</loc>
   </url>
   <url>
-    <loc>//foronda.github.io/it/</loc>
+    <loc>http://localhost:4000/</loc>
   </url>
 </urlset>
