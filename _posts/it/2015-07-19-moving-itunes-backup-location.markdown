@@ -11,8 +11,7 @@ date: 2015-07-19T10:25:45-10:00
 ---
 
 ###Problem: 
-Operating system (C:) drive running out of space due to iTunes backup.
->This is very useful if your OS runs on SSD (which is common today) to save valuable space.
+Operating system (C:) drive running out of space due to iTunes backup.This is very useful if your OS runs on SSD (which is common today) to save valuable space.
 
 ###Solution: 
 Change the backup location of iTunes using Windows mklink junction command.
