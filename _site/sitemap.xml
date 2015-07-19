@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/it/first-it-post/</loc>
+    <loc>//foronda.github.io/it/first-it-post/</loc>
     <lastmod>2015-07-19T02:49:30-10:00</lastmod>
   </url>
   <url>
-    <loc>/food/first-food-post/</loc>
+    <loc>//foronda.github.io/food/first-food-post/</loc>
     <lastmod>2015-07-19T02:12:47-10:00</lastmod>
   </url>
   <url>
-    <loc>/food/</loc>
+    <loc>//foronda.github.io/food/</loc>
   </url>
   <url>
-    <loc>/about/</loc>
+    <loc>//foronda.github.io/about/</loc>
   </url>
   <url>
-    <loc>/</loc>
+    <loc>//foronda.github.io/</loc>
   </url>
   <url>
-    <loc>/posts/</loc>
+    <loc>//foronda.github.io/posts/</loc>
   </url>
   <url>
-    <loc>/theme-setup/</loc>
+    <loc>//foronda.github.io/theme-setup/</loc>
   </url>
   <url>
-    <loc>/it/</loc>
+    <loc>//foronda.github.io/it/</loc>
   </url>
 </urlset>
