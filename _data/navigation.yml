@@ -3,8 +3,11 @@
 - title: About
   url: /about/
 
-- title: IT & Web Development
+  - title: All Posts
   url: /posts/
+
+- title: IT & Web Development
+  url: /it/
 
 - title: Food & Travel
   url: /food/
