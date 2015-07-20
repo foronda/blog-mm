@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dinner at Japengo
+title: Dinner at Japengo.
 modified:
 categories: food
 excerpt: KBH Employees get together.
@@ -16,8 +16,6 @@ date: 2015-07-19T02:12:47-10:00
 </figure>
 
 <a href="https://www.evernote.com/shard/s19/sh/ae9dea7d-a5da-48a9-97d5-1bbfdd11b527/8baabce240040d85">Evenote Food</a>
-
-### FOOD: 4/5 | PRICE: 3.5/5
 <figure class="third">
 	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo1.jpg">
 	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo2.jpg">

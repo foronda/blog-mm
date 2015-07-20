@@ -4,10 +4,10 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2015-07-19T17:55:28-10:00</updated>
+<updated>2015-07-19T21:56:40-10:00</updated>
 <id>http://localhost:4000/</id>
 <author>
-  <name>Brylian Foronda</name>
+  <name>BRYLIAN FORONDA</name>
   <uri>http://localhost:4000/</uri>
   
 </author>
@@ -22,14 +22,14 @@
   <published>2015-07-19T15:22:20-10:00</published>
   <updated>2015-07-19T15:22:20-10:00</updated>
   <author>
-    <name>Brylian Foronda</name>
+    <name>BRYLIAN FORONDA</name>
     <uri>http://localhost:4000</uri>
     
   </author>
   <content type="html">
     
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/deploy-win-2012-server-on-vmware-workstation/&quot;&gt;Deploy Win 2012 Server on VMware Workstation&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/deploy-win-2012-server-on-vmware-workstation/&quot;&gt;Deploy Win 2012 Server on VMware Workstation&lt;/a&gt; was originally published by BRYLIAN FORONDA at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -43,7 +43,7 @@
   <published>2015-07-19T11:16:52-10:00</published>
   <updated>2015-07-19T11:16:52-10:00</updated>
   <author>
-    <name>Brylian Foronda</name>
+    <name>BRYLIAN FORONDA</name>
     <uri>http://localhost:4000</uri>
     
   </author>
@@ -197,7 +197,7 @@
 &lt;pre&gt;&lt;code&gt;1. https://github.com/jonmiles/bootstrap-treeview
 &lt;/code&gt;&lt;/pre&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/webdev/serialize-json-data-for-bootstrap-treeview/&quot;&gt;Serialize JSON Data for Bootstrap-treeview&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/webdev/serialize-json-data-for-bootstrap-treeview/&quot;&gt;Serialize JSON Data for Bootstrap-treeview&lt;/a&gt; was originally published by BRYLIAN FORONDA at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -211,7 +211,7 @@
   <published>2015-07-19T10:25:45-10:00</published>
   <updated>2015-07-19T10:25:45-10:00</updated>
   <author>
-    <name>Brylian Foronda</name>
+    <name>BRYLIAN FORONDA</name>
     <uri>http://localhost:4000</uri>
     
   </author>
@@ -242,7 +242,7 @@
   &lt;li&gt;http://social.technet.microsoft.com/Forums/en-US/8700d04f-45b6-45db-bab5-48bd86a69e18/mklink-error-the-syntax-of-the-command-is-incorrect?forum=w8itprogeneral&lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/moving-itunes-backup-location/&quot;&gt;Moving iTunes Backup Location&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/moving-itunes-backup-location/&quot;&gt;Moving iTunes Backup Location&lt;/a&gt; was originally published by BRYLIAN FORONDA at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -250,37 +250,77 @@
   
 
 <entry>
-  <title type="html"><![CDATA[Dinner at Japengo]]></title>
+  <title type="html"><![CDATA[Dinner at Japengo.]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/food/japengo-post/" />
   <id>http://localhost:4000/food/japengo-post</id>
   <published>2015-07-19T02:12:47-10:00</published>
   <updated>2015-07-19T02:12:47-10:00</updated>
   <author>
-    <name>Brylian Foronda</name>
+    <name>BRYLIAN FORONDA</name>
     <uri>http://localhost:4000</uri>
     
   </author>
   <content type="html">
     &lt;figure&gt;
-	&lt;img src=&quot;/images/japengo-kbh.jpg&quot; /&gt;
+	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/33327425/images/food/japengo-kbh.jpg&quot; /&gt;
 	&lt;figcaption&gt;A long overdue gathering with the KBH Ohana!&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.evernote.com/shard/s19/sh/ae9dea7d-a5da-48a9-97d5-1bbfdd11b527/8baabce240040d85&quot;&gt;Evenote Food&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;food-45--price-355&quot;&gt;FOOD: 4/5 | PRICE: 3.5/5&lt;/h3&gt;
 &lt;figure class=&quot;third&quot;&gt;
-		&lt;img src=&quot;/images/japengo1.jpg&quot; /&gt;
-	&lt;img src=&quot;/images/japengo2.jpg&quot; /&gt;
-	&lt;img src=&quot;/images/japengo3.jpg&quot; /&gt;
+	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/33327425/images/food/japengo1.jpg&quot; /&gt;
+	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/33327425/images/food/japengo2.jpg&quot; /&gt;
+	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/33327425/images/food/japengo3.jpg&quot; /&gt;
 &lt;/figure&gt;
 &lt;figure class=&quot;third&quot;&gt;
-	&lt;img src=&quot;/images/japengo4.jpg&quot; /&gt;
-	&lt;img src=&quot;/images/japengo5.jpg&quot; /&gt;
-	&lt;img src=&quot;/images/japengo6.jpg&quot; /&gt;
+	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/33327425/images/food/japengo4.jpg&quot; /&gt;
+	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/33327425/images/food/japengo5.jpg&quot; /&gt;
+	&lt;img src=&quot;https://dl.dropboxusercontent.com/u/33327425/images/food/japengo6.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/food/japengo-post/&quot;&gt;Dinner at Japengo&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/food/japengo-post/&quot;&gt;Dinner at Japengo.&lt;/a&gt; was originally published by BRYLIAN FORONDA at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Daisy's 27th Bday Dinner at Ko Restaurant]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/food/daisys-27th-bday-dinner-at-k-restaurant/" />
+  <id>http://localhost:4000/food/daisys-27th-bday-dinner-at-k-restaurant</id>
+  <published>2015-02-28T21:52:36-10:00</published>
+  <updated>2015-02-28T21:52:36-10:00</updated>
+  <author>
+    <name>BRYLIAN FORONDA</name>
+    <uri>http://localhost:4000</uri>
+    
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/food/daisys-27th-bday-dinner-at-k-restaurant/&quot;&gt;Daisy&#39;s 27th Bday Dinner at Ko Restaurant&lt;/a&gt; was originally published by BRYLIAN FORONDA at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on February 28, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Lunch at Cheesecake Factory.]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/food/lunch-at-cheesecake-factory-food/" />
+  <id>http://localhost:4000/food/lunch-at-cheesecake-factory-food</id>
+  <published>2014-12-31T21:15:24-10:00</published>
+  <updated>2014-12-31T21:15:24-10:00</updated>
+  <author>
+    <name>BRYLIAN FORONDA</name>
+    <uri>http://localhost:4000</uri>
+    
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/food/lunch-at-cheesecake-factory-food/&quot;&gt;Lunch at Cheesecake Factory.&lt;/a&gt; was originally published by BRYLIAN FORONDA at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on December 31, 2014.&lt;/p&gt;
   </content>
 </entry>
 
