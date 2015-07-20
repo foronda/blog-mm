@@ -3,14 +3,14 @@
 - title: About
   url: /about/
 
-- title: All Posts
-  url: /posts/
-
-- title: IT & Web Development
+- title: IT
   url: /it/
+
+- title: Web Development
+  url: /webdev/
 
 - title: Food & Travel
   url: /food/
 
-- title: Online Resume
+- title: Portfolio
   url: http://brylianforonda.com

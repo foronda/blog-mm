@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title:           blog.breal.co - Just another blog. 
-locale:          en_US
+title:  Just another blog. 
+locale: en_US
 #url: http://localhost:4000
 url: http://blog.breal.co
 
@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Brylian Foronda
   avatar: bio-photo.jpg
-  bio: "IT. Web Applications. Travel"
+  bio: "Information Technology and Web Applications. A little travel. "
   disqus-shortname: bryl
   twitter: xib_ReALix
   facebook: bryl.foronda

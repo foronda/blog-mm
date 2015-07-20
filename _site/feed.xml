@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2015-07-19T14:51:38-10:00</updated>
+<updated>2015-07-19T15:27:17-10:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Brylian Foronda</name>
@@ -16,9 +16,30 @@
   
 
 <entry>
+  <title type="html"><![CDATA[Deploy Win 2012 Server on VMware Workstation]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/it/deploy-win-2012-server-on-vmware-workstation/" />
+  <id>http://localhost:4000/it/deploy-win-2012-server-on-vmware-workstation</id>
+  <published>2015-07-19T15:22:20-10:00</published>
+  <updated>2015-07-19T15:22:20-10:00</updated>
+  <author>
+    <name>Brylian Foronda</name>
+    <uri>http://localhost:4000</uri>
+    
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/deploy-win-2012-server-on-vmware-workstation/&quot;&gt;Deploy Win 2012 Server on VMware Workstation&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
   <title type="html"><![CDATA[Serialize JSON Data for Bootstrap-treeview]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/it/serialize-json-data-for-bootstrap-treeview/" />
-  <id>http://localhost:4000/it/serialize-json-data-for-bootstrap-treeview</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/webdev/serialize-json-data-for-bootstrap-treeview/" />
+  <id>http://localhost:4000/webdev/serialize-json-data-for-bootstrap-treeview</id>
   <published>2015-07-19T11:16:52-10:00</published>
   <updated>2015-07-19T11:16:52-10:00</updated>
   <author>
@@ -136,7 +157,7 @@
 1. https://github.com/jonmiles/bootstrap-treeview&lt;/p&gt;
 &lt;/blockquote&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/serialize-json-data-for-bootstrap-treeview/&quot;&gt;Serialize JSON Data for Bootstrap-treeview&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/webdev/serialize-json-data-for-bootstrap-treeview/&quot;&gt;Serialize JSON Data for Bootstrap-treeview&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -182,27 +203,6 @@
 &lt;/ol&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/moving-itunes-backup-location/&quot;&gt;Moving iTunes Backup Location&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[First IT Post]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/it/first-it-post/" />
-  <id>http://localhost:4000/it/first-it-post</id>
-  <published>2015-07-19T02:49:30-10:00</published>
-  <updated>2015-07-19T02:49:30-10:00</updated>
-  <author>
-    <name>Brylian Foronda</name>
-    <uri>http://localhost:4000</uri>
-    
-  </author>
-  <content type="html">
-    
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/it/first-it-post/&quot;&gt;First IT Post&lt;/a&gt; was originally published by Brylian Foronda at &lt;a href=&quot;http://localhost:4000&quot;&gt;Just another blog.&lt;/a&gt; on July 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 

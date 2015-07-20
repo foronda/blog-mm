@@ -2,7 +2,7 @@
 layout: post
 title: Serialize JSON Data for Bootstrap-treeview
 modified:
-categories: it
+categories: webdev
 excerpt:
 tags: [code snippet, c#, web application, asp.net, bootstrap]
 image:

@@ -1,5 +1,5 @@
 ---
 layout: it-index
-title: All IT & Web Development Posts
-excerpt: "A List of Posts"
+title: Information Technology
+excerpt: "A List of Information Technology Posts"
 ---

@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="it-index">
+<body class="post-index">
 
 {% include _browser-upgrade.html %}
 
@@ -36,7 +36,7 @@
     <h1>{{ page.title }}</h1>
 
     {% for post in site.posts %}  
-    {% if post.categories contains 'it' %}
+    {% if post.categories contains 'webdev' %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
       {% else %}

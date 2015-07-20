@@ -1,5 +1,5 @@
 ---
 layout: food-index
-title: All Food Posts
-excerpt: "A List of Food Posts"
+title: Food & Travel
+excerpt: "A List of Food & Travel Posts"
 ---
