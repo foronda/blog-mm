@@ -3,7 +3,7 @@ layout: post
 title: Serialize JSON Data for Bootstrap-treeview
 modified:
 categories: webdev
-excerpt:
+excerpt: Dynamically populate bootstrap-treeview JSON data using ASP.NET JsonConvert.
 tags: [code snippet, c#, web application, asp.net, bootstrap]
 image:
   feature:

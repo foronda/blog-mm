@@ -3,7 +3,7 @@ layout: post
 title: Moving iTunes Backup Location
 modified:
 categories: it
-excerpt:
+excerpt: Move iTunes backup location to free up SSD OS drive
 tags: [it, itunes, pc]
 image:
   feature:

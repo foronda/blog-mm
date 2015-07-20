@@ -3,7 +3,7 @@ layout: post
 title: Dinner at Japengo
 modified:
 categories: food
-excerpt:
+excerpt: KBH Employees get together.
 tags: [food, maui]
 image:
   feature:
