@@ -11,7 +11,7 @@ date: 2015-07-19T02:12:47-10:00
 ---
 
 <figure>
-	<img src="/images/japengo-kbh.jpg">
+	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo-kbh.jpg">
 	<figcaption>A long overdue gathering with the KBH Ohana!</figcaption>
 </figure>
 
@@ -19,12 +19,12 @@ date: 2015-07-19T02:12:47-10:00
 
 ### FOOD: 4/5 | PRICE: 3.5/5
 <figure class="third">
-		<img src="/images/japengo1.jpg">
-	<img src="/images/japengo2.jpg">
-	<img src="/images/japengo3.jpg">
+	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo1.jpg">
+	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo2.jpg">
+	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo3.jpg">
 </figure>
 <figure class="third">
-	<img src="/images/japengo4.jpg">
-	<img src="/images/japengo5.jpg">
-	<img src="/images/japengo6.jpg">
+	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo4.jpg">
+	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo5.jpg">
+	<img src="https://dl.dropboxusercontent.com/u/33327425/images/food/japengo6.jpg">
 </figure>

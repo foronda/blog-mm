@@ -9,4 +9,4 @@ image:
 
 ### ALOHA!
 
-My name is Brylian Foronda. I am a Computer Engineering graduate from UH Manoa.
+My name is Brylian Foronda. I am a Computer Engineering graduate from UH Manoa. 
