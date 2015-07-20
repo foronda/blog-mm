@@ -14,6 +14,43 @@ date: 2015-07-19T11:16:52-10:00
 ### Overview
 Dynamically populate the <a href="https://github.com/jonmiles/bootstrap-treeview">bootstrap-treeview</a> data from a LINQ-to-SQL datacontext in an ASP.NET C# code behind. The function serialize db.text fields a LINQ query of two tables; one parent, the other child, ultimately merging the serialized a string into JSON parsable string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.
 
+#### Bootstrap-treeview expected JSON format
+{% highlight javascript %}
+var tree = [
+  {
+    text: "Parent 1",
+    nodes: [
+      {
+        text: "Child 1",
+        nodes: [
+          {
+            text: "Grandchild 1"
+          },
+          {
+            text: "Grandchild 2"
+          }
+        ]
+      },
+      {
+        text: "Child 2"
+      }
+    ]
+  },
+  {
+    text: "Parent 2"
+  },
+  {
+    text: "Parent 3"
+  },
+  {
+    text: "Parent 4"
+  },
+  {
+    text: "Parent 5"
+  }
+];
+{% endhighlight %}
+
 #### Required Namespaces
 {% highlight csharp %}
 using System.Runtime.Serialization.Json;
@@ -67,26 +104,28 @@ public string GetJsonData()
 {
     string serializeJsonData = string.Empty;  
     RAP_IRNSIdentityDataContext db = new RAP_IRNSIdentityDataContext();
+    
+    // Select all agencies (parent node)
     List<RapAgency> agencies = (from a in db.RapAgencies
                                 select a).ToList();
 
+    // Loop trough all agencies and serialize it as the parent                              
     int totalAgencies = agencies.Count();
-
     for (int i = 0; i < totalAgencies; i++)
     {
-
+        // Select all subagencies (child nodes)
         List<RapSubAgency> subagencies = (from sa in db.RapSubAgencies
                                             where sa.RapAgencyId == agencies[i].Id
                                             select sa).ToList();
-
+        // Parent node has no child, serialize as ParentWithNoChild object
         int totalSubAgencies = subagencies.Count();
         if (totalSubAgencies == 0)
         {
             ParentWithNoChild single = new ParentWithNoChild();
             single.text = agencies[i].Agency;
             serializeJsonData = serializeJsonData.MergeJsonString(JsonConvert.SerializeObject(single));
-            //Response.Write("<br/></br> serializeJsonData: " + serializeJsonData);
         }
+        // Parent node has child(ren), serialize as ParentWithChildren object
         else if (totalSubAgencies >= 1)
         {
             ParentWithChildren parent = new ParentWithChildren();
@@ -104,11 +143,15 @@ public string GetJsonData()
             }
             parent.nodes = children;
             serializeJsonData = serializeJsonData.MergeJsonString(JsonConvert.SerializeObject(parent));
-            //Response.Write("<br/></br> serializeJsonData: " + serializeJsonData);
         }
     }
     return serializeJsonData.GetTreeViewJsonFormat();
 }
+{% endhighlight %}
+
+This methods returns the serialized JSON data string.
+{% highlight json %}
+[{"text":"HISC - Hawaii Invasive Species Committee","nodes":[{"text":"Big Island Invasive Species Committee"},{"text":"Kauai Invasive Species Committee"},{"text":"Maui Invasive Species Committee"}]},{"text":"CTAHR - College of Tropical Agriculture and Human Resources"},{"text":"DAR - Division of Aquatic Resources"},{"text":"DLNR - Department of Land and Natural Resources"},{"text":"DOFAW - Division of Forestry and Wildlife"},{"text":"HDOA - Hawaii Department of Agriculture"},{"text":"HBIN - Hawaii Biodiversity Information Network","nodes":[{"text":"HBIN Web Application Developers"}]},{"text":"Maui Humane Society"},{"text":"National Park Service I&M"},{"text":"USGS - U.S. Geological Survey"}]   
 {% endhighlight %}
 
 #### Javascritp function call.
@@ -122,5 +165,5 @@ var $tree = $('#treeview12').treeview({
 
 ---
 
-> References
-1. https://github.com/jonmiles/bootstrap-treeview
+###References
+    1. https://github.com/jonmiles/bootstrap-treeview
