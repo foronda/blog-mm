@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2015-07-19T22:18:19-10:00</updated>
+<updated>2015-07-19T22:22:20-10:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>BRYLIAN FORONDA</name>
@@ -49,7 +49,7 @@
   </author>
   <content type="html">
     &lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;Dynamically populate the &lt;a href=&quot;https://github.com/jonmiles/bootstrap-treeview&quot;&gt;bootstrap-treeview&lt;/a&gt; data from a LINQ-to-SQL datacontext in an ASP.NET C# code behind. The function serialize db.text fields a LINQ query of two tables; one parent, the other child, ultimately merging the serialized a string into JSON parsable string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.&lt;/p&gt;
+&lt;p&gt;Dynamically populate the &lt;a href=&quot;https://github.com/jonmiles/bootstrap-treeview&quot;&gt;Bootstrap-treeview&lt;/a&gt; data from a LINQ-to-SQL datacontext in an ASP.NET C# code behind. The function serialize db.text fields a LINQ query of two tables; one parent, the other child, ultimately merging the serialized a string into JSON parsable string. Function is then called by the front-end javascript to reconvert the serialized string using jQuery.ParseJson() method, becoming the data for the bootstrap treeview.&lt;/p&gt;
 
 &lt;h4 id=&quot;bootstrap-treeview-expected-json-format&quot;&gt;Bootstrap-treeview expected JSON format&lt;/h4&gt;
 
